@@ -4,7 +4,7 @@ from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, ContextTypes
 
 # ================= CONFIGURATION =================
-BOT_TOKEN = "8698275644:AAF09mlsf_BH8hOBiHwvjeVGxdM8PC2n9Q0"
+BOT_TOKEN = "8777249972:AAHxgtS-AdJrX9DXyg5wD9RhDLfJFf5BjRc"
 
 # 👇 Owner ka ID (Admin)
 OWNER_ID = 5286579067
@@ -86,7 +86,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     
     caption = (
         f"✨ *Welcome {user.first_name}!* ✨\n\n"
-        f"👇 *Click any button to join:* 👇\n\n"
+        f"👇 *👇Click any button tu join free deposit: 👇* 👇\n\n"
     )
     
     await update.message.reply_photo(
